@@ -14,4 +14,6 @@ function Sandwich (bread, ingredients, cut) {
   this.cut = cut;
 }
 
-var blt = new Sandwich('white')
+var blt = new Sandwich("white", ["bacon","lettuce","tomato","mayo"],"rectangle");
+var reuben = new Sandwich("rye", ["corned beef","sauerkraut","swiss","russian dressing"],"diagonal");
+
