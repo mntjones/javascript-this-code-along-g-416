@@ -5,9 +5,7 @@ var pbj = {
   ingredients: ['peanut butter', 'jelly'],
   cut: 'triangles',
   name: "peanut butter and jelly",
-  serve: function() {
-    console.log("here's your " + this.name + ", enjoy!");
-  }
+  
 };
 
 
@@ -15,7 +13,9 @@ var pbj = {
 function Sandwich (bread, ingredients, cut) {
   this.bread = bread;
   this.ingredients = ingredients;
-  this.cut = cut;
+  this.cut = cut;serve: function() {
+    console.log("here's your " + this.name + ", enjoy!");
+  }
 }
 
 var blt = new Sandwich("white", ["bacon","lettuce","tomato","mayo"],"rectangle");
