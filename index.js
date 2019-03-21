@@ -13,7 +13,8 @@ var pbj = {
 function Sandwich (bread, ingredients, cut) {
   this.bread = bread;
   this.ingredients = ingredients;
-  this.cut = cut;serve: function() {
+  this.cut = cut;
+  this.serve = function() {
     console.log("here's your " + this.name + ", enjoy!");
   }
 }
